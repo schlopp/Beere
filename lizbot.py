@@ -221,7 +221,7 @@ async def about(ctx:commands.Context):
 
 @bot.command()
 async def server(ctx):
-   text = "You can find me in my friend, Ghigeon's, server; https://discord.gg/jagHqTXqeg"
+   text = "Come join me and hang out in https://discord.gg/jagHqTXqeg"
    await ctx.send(text)
 
 @bot.command() 
