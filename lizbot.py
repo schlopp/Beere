@@ -226,7 +226,7 @@ async def server(ctx):
 
 @bot.command() 
 async def DM(ctx, user: discord.User, *, message=None): 
-    message = message or "This Message is sent via DM" 
+    message = message or "This message is sent via DM" 
     await user.send(message)
 
 @bot.event
